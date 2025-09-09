@@ -1,0 +1,12 @@
+/Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/src/CashFlow.Domain/bin/Debug/net8.0/CashFlow.Domain.deps.json
+/Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/src/CashFlow.Domain/bin/Debug/net8.0/CashFlow.Domain.dll
+/Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/src/CashFlow.Domain/bin/Debug/net8.0/CashFlow.Domain.pdb
+/Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/src/CashFlow.Domain/obj/Debug/net8.0/CashFlow.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/src/CashFlow.Domain/obj/Debug/net8.0/CashFlow.Domain.AssemblyInfoInputs.cache
+/Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/src/CashFlow.Domain/obj/Debug/net8.0/CashFlow.Domain.AssemblyInfo.cs
+/Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/src/CashFlow.Domain/obj/Debug/net8.0/CashFlow.Domain.csproj.CoreCompileInputs.cache
+/Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/src/CashFlow.Domain/obj/Debug/net8.0/CashFlow.Domain.sourcelink.json
+/Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/src/CashFlow.Domain/obj/Debug/net8.0/CashFlow.Domain.dll
+/Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/src/CashFlow.Domain/obj/Debug/net8.0/refint/CashFlow.Domain.dll
+/Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/src/CashFlow.Domain/obj/Debug/net8.0/CashFlow.Domain.pdb
+/Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/src/CashFlow.Domain/obj/Debug/net8.0/ref/CashFlow.Domain.dll
