@@ -1,6 +1,7 @@
 using CashFlow.Communication.Enums;
 using CashFlow.Communication.Requests;
 using CashFlow.Communication.Response;
+using CashFlow.Exception.ExceptionsBase;
 
 namespace CashFlow.Application.UseCase.Expenses.Register;
 
@@ -21,8 +22,8 @@ public class RegisterExpenseUseCase
         {
             var errorMessages = 
                 result.Errors.Select(f => f.ErrorMessage).ToList();
-        
-            throw new ArgumentException(string.Join(Environment.NewLine, errorMessages));
+
+            throw new ErrorOnValidationException(errorMessages);
         }
     }
 }
