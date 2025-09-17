@@ -1,4 +1,4 @@
-using CashFlow.Communication.Response;
+using CashFlow.Communication.Responses;
 using CashFlow.Exception.ExceptionsBase;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
@@ -23,11 +23,18 @@ public class ExceptionFilter : IExceptionFilter
     {
         if (context.Exception is ErrorOnValidationException)
         {
-            var ex = context.Exception as ErrorOnValidationException;
+            var ex = (ErrorOnValidationException)context.Exception;
             var errorResponse = new ResponseErrorJson(ex.Errors);
                 
             context.HttpContext.Response.StatusCode = StatusCodes.Status400BadRequest;
             context.Result = new BadRequestObjectResult(errorResponse);
+        }
+        else
+        {
+            var errorResponse = new ResponseErrorJson(context.Exception.Message);
+            
+            context.HttpContext.Response.StatusCode = StatusCodes.Status400BadRequest;
+            context.Result = new BadRequestObjectResult(errorResponse);   
         }
     }
     
