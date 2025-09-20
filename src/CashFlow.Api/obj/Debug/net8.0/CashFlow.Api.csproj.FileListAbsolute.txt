@@ -45,3 +45,6 @@
 /Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/src/CashFlow.Api/obj/Debug/net8.0/CashFlow.Api.genruntimeconfig.cache
 /Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/src/CashFlow.Api/obj/Debug/net8.0/ref/CashFlow.Api.dll
 /Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/src/CashFlow.Api/bin/Debug/net8.0/FluentValidation.dll
+/Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/src/CashFlow.Api/bin/Debug/net8.0/pt-PT/CashFlow.Exception.resources.dll
+/Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/src/CashFlow.Api/bin/Debug/net8.0/pt-BR/CashFlow.Exception.resources.dll
+/Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/src/CashFlow.Api/bin/Debug/net8.0/fr/CashFlow.Exception.resources.dll
