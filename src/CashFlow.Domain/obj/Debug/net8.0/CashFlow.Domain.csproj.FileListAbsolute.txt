@@ -10,3 +10,4 @@
 /Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/src/CashFlow.Domain/obj/Debug/net8.0/refint/CashFlow.Domain.dll
 /Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/src/CashFlow.Domain/obj/Debug/net8.0/CashFlow.Domain.pdb
 /Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/src/CashFlow.Domain/obj/Debug/net8.0/ref/CashFlow.Domain.dll
+/Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/src/CashFlow.Domain/obj/Debug/net8.0/CashFlow.Domain.csproj.AssemblyReference.cache

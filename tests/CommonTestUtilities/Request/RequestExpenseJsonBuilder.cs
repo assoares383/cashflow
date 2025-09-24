@@ -6,7 +6,7 @@ namespace CommonTestUtilities.Request;
 
 public class RequestExpenseJsonBuilder
 {
-    public RequestExpenseJson Build()
+    public static RequestExpenseJson Build()
     {
         return new Faker<RequestExpenseJson>()
             .RuleFor(r =>

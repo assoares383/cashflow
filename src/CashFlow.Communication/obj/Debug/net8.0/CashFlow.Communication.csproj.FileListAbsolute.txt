@@ -10,3 +10,4 @@
 /Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/src/CashFlow.Communication/obj/Debug/net8.0/refint/CashFlow.Communication.dll
 /Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/src/CashFlow.Communication/obj/Debug/net8.0/CashFlow.Communication.pdb
 /Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/src/CashFlow.Communication/obj/Debug/net8.0/ref/CashFlow.Communication.dll
+/Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/src/CashFlow.Communication/obj/Debug/net8.0/CashFlow.Communication.csproj.AssemblyReference.cache

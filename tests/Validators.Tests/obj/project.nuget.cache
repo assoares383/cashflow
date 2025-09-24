@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "tmIyOckRZ5A=",
+  "dgSpecHash": "+nfOwbpLpo8=",
   "success": true,
   "projectFilePath": "/Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/tests/Validators.Tests/Validators.Tests.csproj",
   "expectedPackageFiles": [
+    "/Users/alexandresoares/.nuget/packages/bogus/35.6.3/bogus.35.6.3.nupkg.sha512",
     "/Users/alexandresoares/.nuget/packages/coverlet.collector/6.0.0/coverlet.collector.6.0.0.nupkg.sha512",
+    "/Users/alexandresoares/.nuget/packages/fluentassertions/8.6.0/fluentassertions.8.6.0.nupkg.sha512",
     "/Users/alexandresoares/.nuget/packages/fluentvalidation/12.0.0/fluentvalidation.12.0.0.nupkg.sha512",
     "/Users/alexandresoares/.nuget/packages/microsoft.codecoverage/17.8.0/microsoft.codecoverage.17.8.0.nupkg.sha512",
     "/Users/alexandresoares/.nuget/packages/microsoft.net.test.sdk/17.8.0/microsoft.net.test.sdk.17.8.0.nupkg.sha512",

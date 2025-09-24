@@ -10,6 +10,8 @@
         "dependencies": {
           "CashFlow.Application": "1.0.0",
           "CashFlow.Communication": "1.0.0",
+          "CommonTestUtilities": "1.0.0",
+          "FluentAssertions": "8.6.0",
           "Microsoft.NET.Test.Sdk": "17.8.0",
           "coverlet.collector": "6.0.0",
           "xunit": "2.5.3",
@@ -19,7 +21,23 @@
           "Validators.Tests.dll": {}
         }
       },
+      "Bogus/35.6.3": {
+        "runtime": {
+          "lib/net6.0/Bogus.dll": {
+            "assemblyVersion": "35.6.3.0",
+            "fileVersion": "35.6.3.0"
+          }
+        }
+      },
       "coverlet.collector/6.0.0": {},
+      "FluentAssertions/8.6.0": {
+        "runtime": {
+          "lib/net6.0/FluentAssertions.dll": {
+            "assemblyVersion": "8.6.0.0",
+            "fileVersion": "8.6.0.0"
+          }
+        }
+      },
       "FluentValidation/12.0.0": {
         "runtime": {
           "lib/net8.0/FluentValidation.dll": {
@@ -1035,6 +1053,7 @@
           "CashFlow.Communication": "1.0.0",
           "CashFlow.Domain": "1.0.0",
           "CashFlow.Exception": "1.0.0",
+          "FluentAssertions": "8.6.0",
           "FluentValidation": "12.0.0"
         },
         "runtime": {
@@ -1045,6 +1064,9 @@
         }
       },
       "CashFlow.Communication/1.0.0": {
+        "dependencies": {
+          "FluentAssertions": "8.6.0"
+        },
         "runtime": {
           "CashFlow.Communication.dll": {
             "assemblyVersion": "1.0.0.0",
@@ -1053,6 +1075,9 @@
         }
       },
       "CashFlow.Domain/1.0.0": {
+        "dependencies": {
+          "FluentAssertions": "8.6.0"
+        },
         "runtime": {
           "CashFlow.Domain.dll": {
             "assemblyVersion": "1.0.0.0",
@@ -1061,6 +1086,9 @@
         }
       },
       "CashFlow.Exception/1.0.0": {
+        "dependencies": {
+          "FluentAssertions": "8.6.0"
+        },
         "runtime": {
           "CashFlow.Exception.dll": {
             "assemblyVersion": "1.0.0.0",
@@ -1078,6 +1106,19 @@
             "locale": "fr"
           }
         }
+      },
+      "CommonTestUtilities/1.0.0": {
+        "dependencies": {
+          "Bogus": "35.6.3",
+          "CashFlow.Communication": "1.0.0",
+          "FluentAssertions": "8.6.0"
+        },
+        "runtime": {
+          "CommonTestUtilities.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -1087,12 +1128,26 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Bogus/35.6.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+5omfZWy8gOcbpc48vKfMI4h/ecbdf3NQm6xCl3zMbaP4J3rMMm5h3kPFeIWBgt4mbz6YY0eeZDLR/6yv1khKw==",
+      "path": "bogus/35.6.3",
+      "hashPath": "bogus.35.6.3.nupkg.sha512"
+    },
     "coverlet.collector/6.0.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-tW3lsNS+dAEII6YGUX/VMoJjBS1QvsxqJeqLaJXub08y1FSjasFPtQ4UBUsudE9PNrzLjooClMsPtY2cZLdXpQ==",
       "path": "coverlet.collector/6.0.0",
       "hashPath": "coverlet.collector.6.0.0.nupkg.sha512"
+    },
+    "FluentAssertions/8.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-h5tb0odkLRWuwjc5EhwHQZpZm7+5YmJBNn379tJPIK04FOv3tuOfhGZTPFSuj/MTgzfV6UlAjfbSEBcEGhGucQ==",
+      "path": "fluentassertions/8.6.0",
+      "hashPath": "fluentassertions.8.6.0.nupkg.sha512"
     },
     "FluentValidation/12.0.0": {
       "type": "package",
@@ -1733,6 +1788,11 @@
       "sha512": ""
     },
     "CashFlow.Exception/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CommonTestUtilities/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

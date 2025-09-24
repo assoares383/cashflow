@@ -11,10 +11,19 @@
           "CashFlow.Communication": "1.0.0",
           "CashFlow.Domain": "1.0.0",
           "CashFlow.Exception": "1.0.0",
+          "FluentAssertions": "8.6.0",
           "FluentValidation": "12.0.0"
         },
         "runtime": {
           "CashFlow.Application.dll": {}
+        }
+      },
+      "FluentAssertions/8.6.0": {
+        "runtime": {
+          "lib/net6.0/FluentAssertions.dll": {
+            "assemblyVersion": "8.6.0.0",
+            "fileVersion": "8.6.0.0"
+          }
         }
       },
       "FluentValidation/12.0.0": {
@@ -26,6 +35,9 @@
         }
       },
       "CashFlow.Communication/1.0.0": {
+        "dependencies": {
+          "FluentAssertions": "8.6.0"
+        },
         "runtime": {
           "CashFlow.Communication.dll": {
             "assemblyVersion": "1.0.0.0",
@@ -34,6 +46,9 @@
         }
       },
       "CashFlow.Domain/1.0.0": {
+        "dependencies": {
+          "FluentAssertions": "8.6.0"
+        },
         "runtime": {
           "CashFlow.Domain.dll": {
             "assemblyVersion": "1.0.0.0",
@@ -42,10 +57,24 @@
         }
       },
       "CashFlow.Exception/1.0.0": {
+        "dependencies": {
+          "FluentAssertions": "8.6.0"
+        },
         "runtime": {
           "CashFlow.Exception.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
+          }
+        },
+        "resources": {
+          "pt-PT/CashFlow.Exception.resources.dll": {
+            "locale": "pt-PT"
+          },
+          "pt-BR/CashFlow.Exception.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "fr/CashFlow.Exception.resources.dll": {
+            "locale": "fr"
           }
         }
       }
@@ -56,6 +85,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "FluentAssertions/8.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-h5tb0odkLRWuwjc5EhwHQZpZm7+5YmJBNn379tJPIK04FOv3tuOfhGZTPFSuj/MTgzfV6UlAjfbSEBcEGhGucQ==",
+      "path": "fluentassertions/8.6.0",
+      "hashPath": "fluentassertions.8.6.0.nupkg.sha512"
     },
     "FluentValidation/12.0.0": {
       "type": "package",

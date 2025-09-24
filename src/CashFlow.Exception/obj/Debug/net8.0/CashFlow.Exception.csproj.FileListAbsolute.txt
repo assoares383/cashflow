@@ -24,3 +24,4 @@
 /Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/src/CashFlow.Exception/obj/Debug/net8.0/pt-PT/CashFlow.Exception.resources.dll
 /Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/src/CashFlow.Exception/obj/Debug/net8.0/fr/CashFlow.Exception.resources.cs
 /Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/src/CashFlow.Exception/obj/Debug/net8.0/fr/CashFlow.Exception.resources.dll
+/Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/src/CashFlow.Exception/obj/Debug/net8.0/CashFlow.Exception.csproj.AssemblyReference.cache

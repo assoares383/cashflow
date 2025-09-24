@@ -10,4 +10,8 @@
       <ProjectReference Include="..\CashFlow.Domain\CashFlow.Domain.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="FluentAssertions" Version="8.6.0" />
+    </ItemGroup>
+
 </Project>

@@ -110,3 +110,7 @@
 /Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/tests/Validators.Tests/obj/Debug/net8.0/Validators.Tests.pdb
 /Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/tests/Validators.Tests/obj/Debug/net8.0/Validators.Tests.genruntimeconfig.cache
 /Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/tests/Validators.Tests/obj/Debug/net8.0/ref/Validators.Tests.dll
+/Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/tests/Validators.Tests/bin/Debug/net8.0/Bogus.dll
+/Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/tests/Validators.Tests/bin/Debug/net8.0/CommonTestUtilities.dll
+/Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/tests/Validators.Tests/bin/Debug/net8.0/CommonTestUtilities.pdb
+/Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/tests/Validators.Tests/bin/Debug/net8.0/FluentAssertions.dll

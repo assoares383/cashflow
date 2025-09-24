@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "FluentAssertions/8.6.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/FluentAssertions.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/FluentAssertions.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "FluentValidation/12.0.0": {
         "type": "package",
         "compile": {
@@ -128,6 +141,7 @@
           "CashFlow.Communication": "1.0.0",
           "CashFlow.Domain": "1.0.0",
           "CashFlow.Exception": "1.0.0",
+          "FluentAssertions": "8.6.0",
           "FluentValidation": "12.0.0"
         },
         "compile": {
@@ -140,6 +154,9 @@
       "CashFlow.Communication/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "FluentAssertions": "8.6.0"
+        },
         "compile": {
           "bin/placeholder/CashFlow.Communication.dll": {}
         },
@@ -150,6 +167,9 @@
       "CashFlow.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "FluentAssertions": "8.6.0"
+        },
         "compile": {
           "bin/placeholder/CashFlow.Domain.dll": {}
         },
@@ -160,6 +180,9 @@
       "CashFlow.Exception/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "FluentAssertions": "8.6.0"
+        },
         "compile": {
           "bin/placeholder/CashFlow.Exception.dll": {}
         },
@@ -171,7 +194,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "CashFlow.Domain": "1.0.0"
+          "CashFlow.Domain": "1.0.0",
+          "FluentAssertions": "8.6.0"
         },
         "compile": {
           "bin/placeholder/CashFlow.Infrastructure.dll": {}
@@ -183,6 +207,31 @@
     }
   },
   "libraries": {
+    "FluentAssertions/8.6.0": {
+      "sha512": "h5tb0odkLRWuwjc5EhwHQZpZm7+5YmJBNn379tJPIK04FOv3tuOfhGZTPFSuj/MTgzfV6UlAjfbSEBcEGhGucQ==",
+      "type": "package",
+      "path": "fluentassertions/8.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "FluentAssertions.png",
+        "LICENSE",
+        "fluentassertions.8.6.0.nupkg.sha512",
+        "fluentassertions.nuspec",
+        "lib/net47/FluentAssertions.dll",
+        "lib/net47/FluentAssertions.pdb",
+        "lib/net47/FluentAssertions.xml",
+        "lib/net6.0/FluentAssertions.dll",
+        "lib/net6.0/FluentAssertions.pdb",
+        "lib/net6.0/FluentAssertions.xml",
+        "lib/netstandard2.0/FluentAssertions.dll",
+        "lib/netstandard2.0/FluentAssertions.pdb",
+        "lib/netstandard2.0/FluentAssertions.xml",
+        "lib/netstandard2.1/FluentAssertions.dll",
+        "lib/netstandard2.1/FluentAssertions.pdb",
+        "lib/netstandard2.1/FluentAssertions.xml"
+      ]
+    },
     "FluentValidation/12.0.0": {
       "sha512": "8NVLxtMUXynRHJIX3Hn1ACovaqZIJASufXIIFkD0EUbcd5PmMsL1xUD5h548gCezJ5BzlITaR9CAMrGe29aWpA==",
       "type": "package",
@@ -593,6 +642,7 @@
       "CashFlow.Communication >= 1.0.0",
       "CashFlow.Exception >= 1.0.0",
       "CashFlow.Infrastructure >= 1.0.0",
+      "FluentAssertions >= 8.6.0",
       "Microsoft.AspNetCore.OpenApi >= 8.0.11",
       "Swashbuckle.AspNetCore >= 6.6.2"
     ]
@@ -654,6 +704,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "FluentAssertions": {
+            "target": "Package",
+            "version": "[8.6.0, )"
+          },
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
             "version": "[8.0.11, )"

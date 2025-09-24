@@ -1,0 +1,16 @@
+/Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/tests/CommonTestUtilities/bin/Debug/net8.0/CommonTestUtilities.deps.json
+/Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/tests/CommonTestUtilities/bin/Debug/net8.0/CommonTestUtilities.dll
+/Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/tests/CommonTestUtilities/bin/Debug/net8.0/CommonTestUtilities.pdb
+/Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/tests/CommonTestUtilities/bin/Debug/net8.0/CashFlow.Communication.dll
+/Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/tests/CommonTestUtilities/bin/Debug/net8.0/CashFlow.Communication.pdb
+/Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/tests/CommonTestUtilities/obj/Debug/net8.0/CommonTestUtilities.csproj.AssemblyReference.cache
+/Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/tests/CommonTestUtilities/obj/Debug/net8.0/CommonTestUtilities.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/tests/CommonTestUtilities/obj/Debug/net8.0/CommonTestUtilities.AssemblyInfoInputs.cache
+/Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/tests/CommonTestUtilities/obj/Debug/net8.0/CommonTestUtilities.AssemblyInfo.cs
+/Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/tests/CommonTestUtilities/obj/Debug/net8.0/CommonTestUtilities.csproj.CoreCompileInputs.cache
+/Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/tests/CommonTestUtilities/obj/Debug/net8.0/CommonTestUtilities.sourcelink.json
+/Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/tests/CommonTestUtilities/obj/Debug/net8.0/CommonTe.14C365E1.Up2Date
+/Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/tests/CommonTestUtilities/obj/Debug/net8.0/CommonTestUtilities.dll
+/Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/tests/CommonTestUtilities/obj/Debug/net8.0/refint/CommonTestUtilities.dll
+/Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/tests/CommonTestUtilities/obj/Debug/net8.0/CommonTestUtilities.pdb
+/Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/tests/CommonTestUtilities/obj/Debug/net8.0/ref/CommonTestUtilities.dll
