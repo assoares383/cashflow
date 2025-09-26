@@ -1,10 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "niImTh5OL3s=",
+  "dgSpecHash": "NvQiR2Sbiec=",
   "success": true,
   "projectFilePath": "/Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/src/CashFlow.Infrastructure/CashFlow.Infrastructure.csproj",
   "expectedPackageFiles": [
-    "/Users/alexandresoares/.nuget/packages/fluentassertions/8.6.0/fluentassertions.8.6.0.nupkg.sha512",
+    "/Users/alexandresoares/.nuget/packages/diffengine/11.3.0/diffengine.11.3.0.nupkg.sha512",
+    "/Users/alexandresoares/.nuget/packages/emptyfiles/4.4.0/emptyfiles.4.4.0.nupkg.sha512",
+    "/Users/alexandresoares/.nuget/packages/shouldly/4.3.0/shouldly.4.3.0.nupkg.sha512",
+    "/Users/alexandresoares/.nuget/packages/system.codedom/6.0.0/system.codedom.6.0.0.nupkg.sha512",
+    "/Users/alexandresoares/.nuget/packages/system.management/6.0.1/system.management.6.0.1.nupkg.sha512",
     "/Users/alexandresoares/.nuget/packages/microsoft.netcore.app.ref/8.0.19/microsoft.netcore.app.ref.8.0.19.nupkg.sha512",
     "/Users/alexandresoares/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.19/microsoft.aspnetcore.app.ref.8.0.19.nupkg.sha512"
   ],
