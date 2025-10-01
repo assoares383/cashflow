@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v8.0": {
       "CashFlow.Domain/1.0.0": {
         "dependencies": {
+          "CashFlow.Communication": "1.0.0",
           "Shouldly": "4.3.0"
         },
         "runtime": {
@@ -72,6 +73,17 @@
             "fileVersion": "6.0.1623.17311"
           }
         }
+      },
+      "CashFlow.Communication/1.0.0": {
+        "dependencies": {
+          "Shouldly": "4.3.0"
+        },
+        "runtime": {
+          "CashFlow.Communication.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -115,6 +127,11 @@
       "sha512": "sha512-10J1D0h/lioojphfJ4Fuh5ZUThT/xOVHdV9roGBittKKNP2PMjrvibEdbVTGZcPra1399Ja3tqIJLyQrc5Wmhg==",
       "path": "system.management/6.0.1",
       "hashPath": "system.management.6.0.1.nupkg.sha512"
+    },
+    "CashFlow.Communication/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
