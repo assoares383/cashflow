@@ -95,6 +95,19 @@
             "rid": "win"
           }
         }
+      },
+      "CashFlow.Communication/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Shouldly": "4.3.0"
+        },
+        "compile": {
+          "bin/placeholder/CashFlow.Communication.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CashFlow.Communication.dll": {}
+        }
       }
     }
   },
@@ -270,10 +283,16 @@
         "system.management.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "CashFlow.Communication/1.0.0": {
+      "type": "project",
+      "path": "../CashFlow.Communication/CashFlow.Communication.csproj",
+      "msbuildProject": "../CashFlow.Communication/CashFlow.Communication.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "CashFlow.Communication >= 1.0.0",
       "Shouldly >= 4.3.0"
     ]
   },
@@ -302,7 +321,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj": {
+              "projectPath": "/Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -249,6 +249,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "CashFlow.Communication": "1.0.0",
           "Shouldly": "4.3.0"
         },
         "compile": {

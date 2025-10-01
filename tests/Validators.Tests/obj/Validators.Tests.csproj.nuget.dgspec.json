@@ -192,7 +192,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj": {
+                "projectPath": "/Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

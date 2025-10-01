@@ -96,10 +96,24 @@
           }
         }
       },
+      "CashFlow.Communication/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Shouldly": "4.3.0"
+        },
+        "compile": {
+          "bin/placeholder/CashFlow.Communication.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CashFlow.Communication.dll": {}
+        }
+      },
       "CashFlow.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "CashFlow.Communication": "1.0.0",
           "Shouldly": "4.3.0"
         },
         "compile": {
@@ -283,6 +297,11 @@
         "system.management.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "CashFlow.Communication/1.0.0": {
+      "type": "project",
+      "path": "../CashFlow.Communication/CashFlow.Communication.csproj",
+      "msbuildProject": "../CashFlow.Communication/CashFlow.Communication.csproj"
     },
     "CashFlow.Domain/1.0.0": {
       "type": "project",
