@@ -63,5 +63,3 @@
 /Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/src/CashFlow.Application/bin/Debug/net8.0/EmptyFiles/sheet/empty.xlsx
 /Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/src/CashFlow.Application/bin/Debug/net8.0/EmptyFiles/slide/empty.odp
 /Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/src/CashFlow.Application/bin/Debug/net8.0/EmptyFiles/slide/empty.pptx
-/Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/src/CashFlow.Application/bin/Debug/net8.0/CashFlow.Infrastructure.dll
-/Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/src/CashFlow.Application/bin/Debug/net8.0/CashFlow.Infrastructure.pdb

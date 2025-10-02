@@ -503,6 +503,7 @@
           "CashFlow.Domain": "1.0.0",
           "CashFlow.Exception": "1.0.0",
           "FluentValidation": "12.0.0",
+          "Microsoft.Extensions.DependencyInjection": "9.0.9",
           "Shouldly": "4.3.0"
         },
         "compile": {
