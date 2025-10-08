@@ -111,3 +111,8 @@
 /Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/src/CashFlow.Api/bin/Debug/net8.0/System.Diagnostics.DiagnosticSource.dll
 /Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/src/CashFlow.Api/bin/Debug/net8.0/System.Management.dll
 /Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/src/CashFlow.Api/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Management.dll
+/Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/src/CashFlow.Api/bin/Debug/net8.0/AutoMapper.dll
+/Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/src/CashFlow.Api/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/src/CashFlow.Api/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/src/CashFlow.Api/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
+/Users/alexandresoares/Desktop/2025/rocketseat/dotnet/CashFlow/src/CashFlow.Api/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
