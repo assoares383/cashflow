@@ -23,22 +23,22 @@ public class RegisterExpenseUseCase : IRegisterExpenseUseCase
         _unitOfWork = unitOfWork;
         _mapper = mapper;
     }
-    public async Task<ResponseExpenseJson> Execute(RequestExpenseJson request)
+    public async Task<ResponseRegisteredExpenseJson> Execute(RequestRegisterExpenseJson requestRegister)
     {
-        Validate(request);
+        Validate(requestRegister);
         
-        var entity = _mapper.Map<Expense>(request);
+        var entity = _mapper.Map<Expense>(requestRegister);
         
         await _repository.Add(entity);
         await _unitOfWork.Commit();
         
-        return _mapper.Map<ResponseExpenseJson>(entity);
+        return _mapper.Map<ResponseRegisteredExpenseJson>(entity);
     }
 
-    private void Validate(RequestExpenseJson request)
+    private void Validate(RequestRegisterExpenseJson requestRegister)
     {
         var validator = new RegisterExpenseValidator();
-        var result = validator.Validate(request);
+        var result = validator.Validate(requestRegister);
 
         if (result.IsValid == false)
         {
